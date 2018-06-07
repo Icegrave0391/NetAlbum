@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0867194720C91B3B0040744C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0867194620C91B3B0040744C /* AppDelegate.m */; };
+		0867194A20C91B3C0040744C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0867194920C91B3C0040744C /* ViewController.m */; };
+		0867194D20C91B3C0040744C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0867194B20C91B3C0040744C /* Main.storyboard */; };
+		0867194F20C91B3C0040744C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0867194E20C91B3C0040744C /* Assets.xcassets */; };
+		0867195220C91B3C0040744C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0867195020C91B3C0040744C /* LaunchScreen.storyboard */; };
+		0867195520C91B3C0040744C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0867195420C91B3C0040744C /* main.m */; };
+		0867195F20C91B3C0040744C /* NetAlbumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0867195E20C91B3C0040744C /* NetAlbumTests.m */; };
+		0867196A20C91B3C0040744C /* NetAlbumUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0867196920C91B3C0040744C /* NetAlbumUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0867195B20C91B3C0040744C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867193A20C91B3B0040744C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0867194120C91B3B0040744C;
+			remoteInfo = NetAlbum;
+		};
+		0867196620C91B3C0040744C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867193A20C91B3B0040744C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0867194120C91B3B0040744C;
+			remoteInfo = NetAlbum;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0867194220C91B3B0040744C /* NetAlbum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetAlbum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0867194520C91B3B0040744C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0867194620C91B3B0040744C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0867194820C91B3C0040744C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0867194920C91B3C0040744C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0867194C20C91B3C0040744C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0867194E20C91B3C0040744C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0867195120C91B3C0040744C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0867195320C91B3C0040744C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0867195420C91B3C0040744C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0867195A20C91B3C0040744C /* NetAlbumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetAlbumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0867195E20C91B3C0040744C /* NetAlbumTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetAlbumTests.m; sourceTree = "<group>"; };
+		0867196020C91B3C0040744C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0867196520C91B3C0040744C /* NetAlbumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetAlbumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0867196920C91B3C0040744C /* NetAlbumUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetAlbumUITests.m; sourceTree = "<group>"; };
+		0867196B20C91B3C0040744C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0867193F20C91B3B0040744C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0867195720C91B3C0040744C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0867196220C91B3C0040744C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0867193920C91B3B0040744C = {
+			isa = PBXGroup;
+			children = (
+				0867194420C91B3B0040744C /* NetAlbum */,
+				0867195D20C91B3C0040744C /* NetAlbumTests */,
+				0867196820C91B3C0040744C /* NetAlbumUITests */,
+				0867194320C91B3B0040744C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0867194320C91B3B0040744C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0867194220C91B3B0040744C /* NetAlbum.app */,
+				0867195A20C91B3C0040744C /* NetAlbumTests.xctest */,
+				0867196520C91B3C0040744C /* NetAlbumUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867194420C91B3B0040744C /* NetAlbum */ = {
+			isa = PBXGroup;
+			children = (
+				0867194520C91B3B0040744C /* AppDelegate.h */,
+				0867194620C91B3B0040744C /* AppDelegate.m */,
+				0867194820C91B3C0040744C /* ViewController.h */,
+				0867194920C91B3C0040744C /* ViewController.m */,
+				0867194B20C91B3C0040744C /* Main.storyboard */,
+				0867194E20C91B3C0040744C /* Assets.xcassets */,
+				0867195020C91B3C0040744C /* LaunchScreen.storyboard */,
+				0867195320C91B3C0040744C /* Info.plist */,
+				0867195420C91B3C0040744C /* main.m */,
+			);
+			path = NetAlbum;
+			sourceTree = "<group>";
+		};
+		0867195D20C91B3C0040744C /* NetAlbumTests */ = {
+			isa = PBXGroup;
+			children = (
+				0867195E20C91B3C0040744C /* NetAlbumTests.m */,
+				0867196020C91B3C0040744C /* Info.plist */,
+			);
+			path = NetAlbumTests;
+			sourceTree = "<group>";
+		};
+		0867196820C91B3C0040744C /* NetAlbumUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0867196920C91B3C0040744C /* NetAlbumUITests.m */,
+				0867196B20C91B3C0040744C /* Info.plist */,
+			);
+			path = NetAlbumUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0867194120C91B3B0040744C /* NetAlbum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0867196E20C91B3C0040744C /* Build configuration list for PBXNativeTarget "NetAlbum" */;
+			buildPhases = (
+				0867193E20C91B3B0040744C /* Sources */,
+				0867193F20C91B3B0040744C /* Frameworks */,
+				0867194020C91B3B0040744C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NetAlbum;
+			productName = NetAlbum;
+			productReference = 0867194220C91B3B0040744C /* NetAlbum.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0867195920C91B3C0040744C /* NetAlbumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0867197120C91B3C0040744C /* Build configuration list for PBXNativeTarget "NetAlbumTests" */;
+			buildPhases = (
+				0867195620C91B3C0040744C /* Sources */,
+				0867195720C91B3C0040744C /* Frameworks */,
+				0867195820C91B3C0040744C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0867195C20C91B3C0040744C /* PBXTargetDependency */,
+			);
+			name = NetAlbumTests;
+			productName = NetAlbumTests;
+			productReference = 0867195A20C91B3C0040744C /* NetAlbumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0867196420C91B3C0040744C /* NetAlbumUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0867197420C91B3C0040744C /* Build configuration list for PBXNativeTarget "NetAlbumUITests" */;
+			buildPhases = (
+				0867196120C91B3C0040744C /* Sources */,
+				0867196220C91B3C0040744C /* Frameworks */,
+				0867196320C91B3C0040744C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0867196720C91B3C0040744C /* PBXTargetDependency */,
+			);
+			name = NetAlbumUITests;
+			productName = NetAlbumUITests;
+			productReference = 0867196520C91B3C0040744C /* NetAlbumUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867193A20C91B3B0040744C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = 1;
+				TargetAttributes = {
+					0867194120C91B3B0040744C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					0867195920C91B3C0040744C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0867194120C91B3B0040744C;
+					};
+					0867196420C91B3C0040744C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0867194120C91B3B0040744C;
+					};
+				};
+			};
+			buildConfigurationList = 0867193D20C91B3B0040744C /* Build configuration list for PBXProject "NetAlbum" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0867193920C91B3B0040744C;
+			productRefGroup = 0867194320C91B3B0040744C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0867194120C91B3B0040744C /* NetAlbum */,
+				0867195920C91B3C0040744C /* NetAlbumTests */,
+				0867196420C91B3C0040744C /* NetAlbumUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0867194020C91B3B0040744C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0867195220C91B3C0040744C /* LaunchScreen.storyboard in Resources */,
+				0867194F20C91B3C0040744C /* Assets.xcassets in Resources */,
+				0867194D20C91B3C0040744C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0867195820C91B3C0040744C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0867196320C91B3C0040744C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0867193E20C91B3B0040744C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0867194A20C91B3C0040744C /* ViewController.m in Sources */,
+				0867195520C91B3C0040744C /* main.m in Sources */,
+				0867194720C91B3B0040744C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0867195620C91B3C0040744C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0867195F20C91B3C0040744C /* NetAlbumTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0867196120C91B3C0040744C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0867196A20C91B3C0040744C /* NetAlbumUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0867195C20C91B3C0040744C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0867194120C91B3B0040744C /* NetAlbum */;
+			targetProxy = 0867195B20C91B3C0040744C /* PBXContainerItemProxy */;
+		};
+		0867196720C91B3C0040744C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0867194120C91B3B0040744C /* NetAlbum */;
+			targetProxy = 0867196620C91B3C0040744C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0867194B20C91B3C0040744C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0867194C20C91B3C0040744C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0867195020C91B3C0040744C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0867195120C91B3C0040744C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0867196C20C91B3C0040744C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0867196D20C91B3C0040744C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0867196F20C91B3C0040744C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q64PWL267Z;
+				INFOPLIST_FILE = NetAlbum/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.NetAlbum";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0867197020C91B3C0040744C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q64PWL267Z;
+				INFOPLIST_FILE = NetAlbum/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.NetAlbum";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0867197220C91B3C0040744C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q64PWL267Z;
+				INFOPLIST_FILE = NetAlbumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.NetAlbumTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetAlbum.app/NetAlbum";
+			};
+			name = Debug;
+		};
+		0867197320C91B3C0040744C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q64PWL267Z;
+				INFOPLIST_FILE = NetAlbumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.NetAlbumTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetAlbum.app/NetAlbum";
+			};
+			name = Release;
+		};
+		0867197520C91B3C0040744C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q64PWL267Z;
+				INFOPLIST_FILE = NetAlbumUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.NetAlbumUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NetAlbum;
+			};
+			name = Debug;
+		};
+		0867197620C91B3C0040744C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q64PWL267Z;
+				INFOPLIST_FILE = NetAlbumUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.NetAlbumUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NetAlbum;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0867193D20C91B3B0040744C /* Build configuration list for PBXProject "NetAlbum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0867196C20C91B3C0040744C /* Debug */,
+				0867196D20C91B3C0040744C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0867196E20C91B3C0040744C /* Build configuration list for PBXNativeTarget "NetAlbum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0867196F20C91B3C0040744C /* Debug */,
+				0867197020C91B3C0040744C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0867197120C91B3C0040744C /* Build configuration list for PBXNativeTarget "NetAlbumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0867197220C91B3C0040744C /* Debug */,
+				0867197320C91B3C0040744C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0867197420C91B3C0040744C /* Build configuration list for PBXNativeTarget "NetAlbumUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0867197520C91B3C0040744C /* Debug */,
+				0867197620C91B3C0040744C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867193A20C91B3B0040744C /* Project object */;
+}
